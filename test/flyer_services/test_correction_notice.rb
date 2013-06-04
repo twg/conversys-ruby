@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestCorrectionNotice < Test::Unit::TestCase
+class TestCorrectionNotice < Minitest::Test
 end

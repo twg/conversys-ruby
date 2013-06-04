@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestChannel < Test::Unit::TestCase
+class TestChannel < Minitest::Test
 end

@@ -1,7 +1,7 @@
 require_relative '../helper'
 require 'date'
 
-class TestPublication < Test::Unit::TestCase
+class TestPublication < Minitest::Test
 
   def first_publication_id
     response = @client.get_publications(@org_code, @banner_code)

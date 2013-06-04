@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestImage < Test::Unit::TestCase
+class TestImage < Minitest::Test
 end

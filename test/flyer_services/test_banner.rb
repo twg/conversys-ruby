@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestBanner < Test::Unit::TestCase
+class TestBanner < Minitest::Test
 end

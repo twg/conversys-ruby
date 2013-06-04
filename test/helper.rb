@@ -1,10 +1,10 @@
 require 'rubygems'
-require 'test/unit'
+require 'minitest/autorun'
 require 'awesome_print'
 
 require_relative '../lib/conversys'
 
-class Test::Unit::TestCase
+class Minitest::Test
   def setup
 
     @org_code = ENV['ORG_CODE']
