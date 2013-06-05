@@ -10,7 +10,7 @@ class TestStore < Minitest::Test
 
     assert_equal 200, response.status
     assert store_data = response.body.store_grouping_data.stores.store_data
-    assert_not_equal 0, store_data.length
+    refute_equal 0, store_data.length
     assert store = store_data.first
 
     assert_hash_contains_keys %w{

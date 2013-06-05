@@ -13,7 +13,7 @@ class TestPublication < Minitest::Test
     assert_equal 200, response.status
 
     assert publications = response.body.publication_grouping_data.publications.publication_data
-    assert_not_equal 0, publications.length
+    refute_equal 0, publications.length
     assert publication = publications.first
 
     assert_hash_contains_keys %w{
