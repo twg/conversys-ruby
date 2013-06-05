@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestPostalCode < Minitest::Test
+class TestPostalCode < Minitest::Unit::TestCase
 end

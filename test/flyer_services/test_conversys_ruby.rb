@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestConversysRuby < Minitest::Test
+class TestConversysRuby < Minitest::Unit::TestCase
 end

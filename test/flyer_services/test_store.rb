@@ -1,6 +1,6 @@
 require_relative '../helper'
 
-class TestStore < Minitest::Test
+class TestStore < Minitest::Unit::TestCase
   def first_store_id
     @client.get_stores(@org_code, @banner_code).body.store_grouping_data.stores.store_data.first.store_id
   end

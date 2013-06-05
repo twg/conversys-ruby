@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestProduct < Minitest::Test
+class TestProduct < Minitest::Unit::TestCase
 end

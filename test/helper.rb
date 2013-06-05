@@ -4,7 +4,7 @@ require 'awesome_print'
 
 require_relative '../lib/conversys'
 
-class Minitest::Test
+class Minitest::Unit::TestCase
   def setup
 
     @org_code = ENV['ORG_CODE']

@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestPromotion < Minitest::Test
+class TestPromotion < Minitest::Unit::TestCase
 end

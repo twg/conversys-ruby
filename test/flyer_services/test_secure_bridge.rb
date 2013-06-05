@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestSecureBridge < Minitest::Test
+class TestSecureBridge < Minitest::Unit::TestCase
 end

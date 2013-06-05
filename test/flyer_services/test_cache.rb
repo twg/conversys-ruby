@@ -1,4 +1,4 @@
 require_relative '../helper'
 
-class TestCache < Minitest::Test
+class TestCache < Minitest::Unit::TestCase
 end
